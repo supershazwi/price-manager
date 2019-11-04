@@ -37,13 +37,9 @@ class ProductDetails extends Component {
     let x;
     let labels = [];
 
-    console.log(priceHistories);
-
     for (x in priceHistories) {
       labels.push(moment(priceHistories[x].date).format("Do MMM YY"));
     }
-
-    console.log(labels);
 
     let dataSets = [];
     let trackers = this.state.selectedProduct.trackers;
@@ -151,7 +147,11 @@ class ProductDetails extends Component {
         <hr />
         <div className="row">
           <div className="col-lg-12">
-            <Line data={this.state.data} legend={{ position: "top" }} />
+            <Line
+              data={this.state.data}
+              height={250}
+              legend={{ position: "top" }}
+            />
           </div>
         </div>
         <hr />
