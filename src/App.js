@@ -17,10 +17,6 @@ class App extends Component {
     };
   }
 
-  handleProductClick() {
-    console.log("App: handleProductClick()");
-  }
-
   render() {
     return (
       <React.Fragment>
@@ -72,11 +68,7 @@ class App extends Component {
                   <Route
                     path="/"
                     render={props => (
-                      <ProductList
-                        onProductClick={this.handleProductClick}
-                        products={this.state.products}
-                        {...props}
-                      />
+                      <ProductList products={this.state.products} {...props} />
                     )}
                   />
                   <Redirect to="/not-found" />

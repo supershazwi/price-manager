@@ -106,7 +106,9 @@ class ProductList extends Component {
           </h2>
           {a.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -118,7 +120,9 @@ class ProductList extends Component {
           </h2>
           {b.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -130,7 +134,9 @@ class ProductList extends Component {
           </h2>
           {c.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -142,7 +148,9 @@ class ProductList extends Component {
           </h2>
           {d.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -154,7 +162,9 @@ class ProductList extends Component {
           </h2>
           {e.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -166,7 +176,9 @@ class ProductList extends Component {
           </h2>
           {f.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -178,7 +190,9 @@ class ProductList extends Component {
           </h2>
           {g.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -190,7 +204,9 @@ class ProductList extends Component {
           </h2>
           {h.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -202,7 +218,9 @@ class ProductList extends Component {
           </h2>
           {i.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -216,7 +234,9 @@ class ProductList extends Component {
           </h2>
           {j.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -228,7 +248,9 @@ class ProductList extends Component {
           </h2>
           {k.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -240,7 +262,9 @@ class ProductList extends Component {
           </h2>
           {l.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -252,7 +276,9 @@ class ProductList extends Component {
           </h2>
           {m.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -264,7 +290,9 @@ class ProductList extends Component {
           </h2>
           {n.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -276,7 +304,9 @@ class ProductList extends Component {
           </h2>
           {o.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -288,7 +318,9 @@ class ProductList extends Component {
           </h2>
           {p.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -300,7 +332,9 @@ class ProductList extends Component {
           </h2>
           {q.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -312,7 +346,9 @@ class ProductList extends Component {
           </h2>
           {r.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -326,7 +362,9 @@ class ProductList extends Component {
           </h2>
           {s.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -338,7 +376,9 @@ class ProductList extends Component {
           </h2>
           {t.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -350,7 +390,9 @@ class ProductList extends Component {
           </h2>
           {u.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -362,7 +404,9 @@ class ProductList extends Component {
           </h2>
           {v.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -374,7 +418,9 @@ class ProductList extends Component {
           </h2>
           {w.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -386,7 +432,9 @@ class ProductList extends Component {
           </h2>
           {x.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -398,7 +446,9 @@ class ProductList extends Component {
           </h2>
           {y.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
@@ -410,7 +460,9 @@ class ProductList extends Component {
           </h2>
           {z.map(product => (
             <div className="row pl-3" key={product._id}>
-              <Link to={`/products/${product._id}`}>{product.title}</Link>
+              <a href={`/products/${product._id}`} target="_blank">
+                {product.title}
+              </a>
             </div>
           ))}
           <br />
