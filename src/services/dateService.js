@@ -1,5 +1,5 @@
 import http from "./httpService";
 
 export function getDates() {
-  return http.get("http://localhost:3900/api/dates");
+  return http.get("https://enigmatic-stream-42646.herokuapp.com/api/dates");
 }
