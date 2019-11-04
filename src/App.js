@@ -31,13 +31,6 @@ class App extends Component {
           >
             BTFL
           </a>
-          <ul className="navbar-nav px-3">
-            <li className="nav-item text-nowrap">
-              <a className="nav-link" href="https://google.com">
-                Sign out
-              </a>
-            </li>
-          </ul>
         </nav>
         <div className="container-fluid">
           <div className="row">
